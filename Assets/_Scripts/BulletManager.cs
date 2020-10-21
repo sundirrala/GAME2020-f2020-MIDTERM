@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Nisara Drahman, 101120917
+/// This script is for object pooling the bullets and handles how many bullets in total it goes through.
+/// Date Modified; N/A
+/// </summary>
+
 [System.Serializable]
 public class BulletManager : MonoBehaviour
 {

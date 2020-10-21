@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Nisara Drahman, 101120917
+/// this cycles through the three types of bullets in a rand function.
+/// Date Modified; 2020-10-21
+/// </summary>
+
 [System.Serializable]
 public class BulletFactory : MonoBehaviour
 {

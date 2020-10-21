@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Nisara Drahman, 101120917
+/// the enemy controller deals with the automatical movement of the enemy
+/// and the boundaries of how far it can move on the y-axis
+/// Date Modified; 2020-10-21
+/// </summary>
+
 public class EnemyController : MonoBehaviour
 {
     public float horizontalSpeed;

@@ -4,6 +4,12 @@ using System.ComponentModel;
 using UnityEditor;
 using UnityEngine;
 
+/// <summary>
+/// Nisara Drahman, 101120917
+/// this controls the player movement and restricts it to the phone y bounds
+/// Date Modified; 2020-10-21
+/// </summary>
+
 public class PlayerController : MonoBehaviour
 {
     public BulletManager bulletManager;
@@ -74,7 +80,7 @@ public class PlayerController : MonoBehaviour
 
         if (m_touchesEnded.y != 0.0f)
         {
-           transform.position = new Vector2(Mathf.Lerp(transform.position.y, m_touchesEnded.y, verticalTValue), transform.position.x);
+           transform.position = new Vector2(transform.position.x, Mathf.Lerp(transform.position.y, m_touchesEnded.y, verticalTValue));
         }
         else
         {

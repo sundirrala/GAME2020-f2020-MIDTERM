@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Nisara Drahman, 101120917
+/// this controls the bullet movement and checks the boundary.
+/// Date Modified; 2020-10-21
+/// </summary>
 public class BulletController : MonoBehaviour, IApplyDamage
 {
     public float verticalSpeed;
